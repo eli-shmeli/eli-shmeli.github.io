@@ -10,5 +10,6 @@ body {
     background-image: url(anime_images/collage.jpg);
     background-repeat: repeat-y;
     background-position: center;
+    background-clip: border-box;
 
 }
