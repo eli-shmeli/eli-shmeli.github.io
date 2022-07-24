@@ -11,5 +11,6 @@ body {
     background-repeat: repeat-y;
     background-position: center;
     background-clip: border-box;
+    background-size: contain;
 
 }
