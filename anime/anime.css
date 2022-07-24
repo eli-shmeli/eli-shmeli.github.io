@@ -5,3 +5,7 @@ header {
     text-align: center;
     font-family: 'Baloo 2', sans-serif;
 }
+
+body {
+    background-image: url(anime_images/collage.jpg);
+}
