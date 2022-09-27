@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap');
+
 body{
     background-color: #ADB6E3;
     margin-top: 15vh;
@@ -31,39 +33,56 @@ body{
 }
 
 .title{
-    height: 5rem;
-    width: 20rem;
+    /*SIZE*/
+    height: 4.5rem;
+    width: 18rem;
     float: left;
     background-color: #f6f7fB;
+    /*BORDER*/
     border: solid;
     border-color: #dbe0f9;
     border-width: 0.5rem;
     border-top-left-radius: 2.5rem;
     border-top-right-radius: 2.5rem;
+    /*POSITION*/
     position: relative;
     right: 0.5rem;
     bottom: 0.5rem;
     z-index: 2;
+    /*FONT AND SPACING*/
+    font-family: Aref Ruqaa Ink;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 img{
+    /*SIZE*/
     height: 15rem;
     width: 10rem;
     float: left;
-    border-bottom-left-radius: 2.5rem;
-    position: relative;
-    bottom: 1.5rem;
-    right: 0.5rem;
-    z-index: 1;
+    /*BORDER*/
     border: solid;
     border-color: #dbe0f9;
     border-width: 0.5rem;
+    border-bottom-left-radius: 2.5rem;
+    /*POSITION*/
+    position: relative;
+    bottom: 1rem;
+    right: 0.5rem;
+    z-index: 1;
+    
 }
 
 .summary{
+    /*SIZE*/
     height: 15rem;
     width: 9rem;
     float: left;
+    /*POSITION*/
+    position: relative;
+    right: 0.25rem;
+    bottom: 0.25rem;
 }
 
 
