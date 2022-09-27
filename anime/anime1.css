@@ -16,13 +16,14 @@ body{
     border-width: 0.5rem;
     border-radius: 3rem; 
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 .grid {
     display: grid;
     margin: auto;
     width: 80vw;
-    gap: 1rem;
+   /* gap: 1rem;*/
     grid-template-columns: 1fr 1fr 1fr;
 }
 
