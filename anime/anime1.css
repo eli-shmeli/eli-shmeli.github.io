@@ -1,5 +1,6 @@
 body{
     background-color: #ADB6E3;
+    margin-top: 10vh;
 
 }
 
@@ -9,20 +10,42 @@ body{
     width: 20rem;
     border: solid;
     border-color: #dbe0f9;
-    border-width: 0.4rem;
-    border-radius: 3rem;
-    margin-left: 10rem;
+    border-width: 0.5rem;
+    border-radius: 3rem; 
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    margin: auto;
+    width: 80vw;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 81rem){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+/*.container:nth-child(3n+1){
     float: left;
-    
+}
+.container:nth-child(3n+2){
+    float: center;
+}
+.container:nth-child(3n+0){
+    float: right;
 }
 
 .container{
     width: 80vw;
-    margin: auto;
-}
-
-/*.grid {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
 }*/
