@@ -30,6 +30,37 @@ body{
     }
 }
 
+.title{
+    height: 5rem;
+    width: 20rem;
+    float: left;
+    border: solid;
+    border-color: #dbe0f9;
+    border-width: 0.5rem;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    position: relative;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    z-index: 2;
+}
+
+img{
+    height: 15rem;
+    width: 10rem;
+    float: left;
+    border-bottom-left-radius: 2.5rem;
+    position: relative;
+    bottom: 1rem;
+    z-index: 1;
+}
+
+p{
+    height: 15rem;
+    width: 10rem;
+    float: left;
+}
+
 
 
 
