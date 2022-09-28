@@ -58,6 +58,7 @@ body{
     font-family: Aref, serif;
     padding-left: 1rem;
     padding-right: 1rem;
+    text-align: center;
 }
 
 img{
@@ -90,22 +91,74 @@ img{
 }
 
 
-
-
-
-
-
-/*.container:nth-child(3n+1){
-    float: left;
+.icon1{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/icon1.png);
+    background-size: contain;
 }
-.container:nth-child(3n+2){
-    float: center;
-}
-.container:nth-child(3n+0){
-    float: right;
+
+.icon2{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/icon2.png);
+    background-size: contain;
 }
 
-.container{
-    width: 80vw;
-    margin:auto;
-}*/
+.icon3{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/icon3.png);
+    background-size: contain;
+}
+
+.iconU{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/iconU.png);
+    background-size: contain;
+}
+
+.iconM{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/iconM.png);
+    background-size: contain;
+}
+
+
