@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap');
+@font-face {
+    font-family: Aref;
+    src: url(../fonts/ArefRuqaaInk-Bold.ttf);
+}
 
 body{
     background-color: #ADB6E3;
@@ -51,8 +54,8 @@ body{
     bottom: 0.5rem;
     z-index: 2;
     /*FONT AND SPACING*/
-    font-family: Aref Ruqaa Ink;
     font-size: 1.2rem;
+    font-family: Aref, serif;
     padding-left: 1rem;
     padding-right: 1rem;
 }
