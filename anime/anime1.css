@@ -5,9 +5,20 @@
 
 body{
     background-color: #ADB6E3;
-    margin-top: 15vh;
+    margin-top: 7vh;
     margin-bottom: 40vh;
 
+}
+
+.top{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-family: Aref, serif;
+    font-size: 3rem;
+    color: white;
 }
 
 .entry {
