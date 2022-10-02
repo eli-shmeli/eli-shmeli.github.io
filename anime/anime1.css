@@ -176,5 +176,17 @@ img{
     background-image: url(icons/iconM.png);
     background-size: contain;
 }
-
+.iconN{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/iconN.png);
+    background-size: contain;
+}
 
