@@ -29,6 +29,7 @@ body{
     border-color: #dbe0f9;
     border-width: 0.5rem;
     border-radius: 3rem; 
+    border-bottom-right-radius: 0rem;
     margin: auto;
     margin-bottom: 2rem;
 }
@@ -95,15 +96,22 @@ img{
 
 .summary{
     /*SIZE*/
-    height: 15rem;
-    width: 9rem;
+    height: 14.55rem;
+    width: 8.6rem;
     float: left;
     /*POSITION*/
     position: relative;
-    right: 0.25rem;
-    bottom: 0.25rem;
+    right: 0.05rem;
+    bottom: 0.05rem;
     font-size: 80%;
     font-family: 'Times New Roman', Times, serif;
+    /*SCROLL*/
+    
+    overflow-y: hidden;
+}
+
+.summary:hover{
+    overflow-y: auto;
 }
 
 
