@@ -96,18 +96,20 @@ img{
 
 .summary{
     /*SIZE*/
-    height: 14.55rem;
-    width: 8.6rem;
+    height: 14.5rem;
+    width: 8.5rem;
     float: left;
     /*POSITION*/
     position: relative;
-    right: 0.05rem;
-    bottom: 0.05rem;
+    right: 0rem;
+    bottom: 0.5rem;
     font-size: 80%;
     font-family: 'Times New Roman', Times, serif;
     /*SCROLL*/
     
     overflow-y: hidden;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 .summary:hover{
@@ -228,7 +230,8 @@ img{
 
     /*new popup stuff*/
     background-color: #dbe0f9;
-    border-width: 0.7rem;
+    border-width: 0.5rem;
+    padding: 0.2rem;
     border-color: #8995d7;
     border-style: solid;
     z-index: 1;
