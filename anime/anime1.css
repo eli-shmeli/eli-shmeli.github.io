@@ -206,7 +206,7 @@ img{
     position:relative;
     z-index: 5;
     left: 19.9rem;
-    bottom: 4.5rem;
+    bottom: 4.4rem;
     /*IMAGE*/
     background-image: url(icons/info.jpg);
     background-size: contain;
@@ -221,7 +221,7 @@ img{
     /*POSITION*/
     position: relative;
     right: 10.1rem;
-    bottom: 12.7rem;
+    bottom: 12.8rem;
     /*SCROLL*/
     
     overflow-y: hidden;
