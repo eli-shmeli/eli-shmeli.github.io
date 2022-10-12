@@ -205,10 +205,46 @@ img{
     /*POSITION*/
     position:relative;
     z-index: 5;
-    left: 20rem;
+    left: 19.9rem;
     bottom: 4.5rem;
     /*IMAGE*/
     background-image: url(icons/info.jpg);
     background-size: contain;
+    visibility: visible;
+}
+
+.info_textbox{
+    visibility: hidden;
+    /*SIZE*/
+    height: 15rem;
+    width: 9.5rem;
+    /*POSITION*/
+    position: relative;
+    right: 10.1rem;
+    bottom: 12.7rem;
+    /*SCROLL*/
+    
+    overflow-y: hidden;
+
+    /*new popup stuff*/
+    background-color: #dbe0f9;
+    border-width: 0.7rem;
+    border-color: #8995d7;
+    border-style: solid;
+    z-index: 1;
+}
+
+.info_contents{
+    font-size: 100%;
+    font-family: Aref, serif;
+    padding: 0.5rem;
+}
+
+.info:hover{
+    background-image: url(icons/info\ 2.jpg);
+}
+
+
+.info:hover .info_textbox{
     visibility: visible;
 }
