@@ -198,3 +198,17 @@ img{
     background-size: contain;
 }
 
+.info{
+    /*SIZE*/
+    width: 1rem;
+    height: 1rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    left: 20rem;
+    bottom: 4.5rem;
+    /*IMAGE*/
+    background-image: url(icons/info.jpg);
+    background-size: contain;
+    visibility: visible;
+}
