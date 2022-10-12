@@ -96,7 +96,7 @@ img{
 
 .summary{
     /*SIZE*/
-    height: 14.5rem;
+    height: 14.2rem;
     width: 8.5rem;
     float: left;
     /*POSITION*/
@@ -110,6 +110,7 @@ img{
     overflow-y: hidden;
     padding-right: 0.5rem;
     padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
 }
 
 .summary:hover{
