@@ -233,6 +233,7 @@ img{
     background-color: #dbe0f9;
     border-width: 0.5rem;
     padding: 0.2rem;
+    padding-top: 0rem;
     border-color: #8995d7;
     border-style: solid;
     z-index: 1;
