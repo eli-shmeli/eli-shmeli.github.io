@@ -253,3 +253,7 @@ img{
 .info:hover .info_textbox{
     visibility: visible;
 }
+
+.bottom_half{
+    visibility: hidden;
+}
