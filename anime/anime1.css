@@ -1,0 +1,259 @@
+@font-face {
+    font-family: Aref;
+    src: url(../fonts/ArefRuqaaInk-Bold.ttf);
+}
+
+body{
+    background-color: #ADB6E3;
+    margin-top: 7vh;
+    margin-bottom: 40vh;
+
+}
+
+.top{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-family: Aref, serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.entry {
+    background-color: #f6f7fB;
+    height: 20rem;
+    width: 20rem;
+    border: solid;
+    border-color: #dbe0f9;
+    border-width: 0.5rem;
+    border-radius: 3rem; 
+    border-bottom-right-radius: 0rem;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.grid {
+    display: grid;
+    margin: auto;
+    width: 80vw;
+   /* gap: 1rem;*/
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 81rem){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+.title{
+    /*SIZE*/
+    height: 4.5rem;
+    width: 18rem;
+    float: left;
+    background-color: #f6f7fB;
+    /*BORDER*/
+    border: solid;
+    border-color: #dbe0f9;
+    border-width: 0.5rem;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    /*POSITION*/
+    position: relative;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    z-index: 2;
+    /*FONT AND SPACING*/
+    font-size: 1.2rem;
+    font-family: Aref, serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    /*SIZE*/
+    height: 15rem;
+    width: 10rem;
+    float: left;
+    /*BORDER*/
+    border: solid;
+    border-color: #dbe0f9;
+    border-width: 0.5rem;
+    border-bottom-left-radius: 2.5rem;
+    /*POSITION*/
+    position: relative;
+    bottom: 1rem;
+    right: 0.5rem;
+    z-index: 1;
+    
+}
+
+.summary{
+    /*SIZE*/
+    height: 14.2rem;
+    width: 8.5rem;
+    float: left;
+    /*POSITION*/
+    position: relative;
+    right: 0rem;
+    bottom: 0.5rem;
+    font-size: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    /*SCROLL*/
+    
+    overflow-y: hidden;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+}
+
+.summary:hover{
+    overflow-y: auto;
+}
+
+
+.icon1{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/icon1.png);
+    background-size: contain;
+}
+
+.icon2{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/icon2.png);
+    background-size: contain;
+}
+
+.icon3{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/icon3.png);
+    background-size: contain;
+}
+
+.iconU{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/iconU.png);
+    background-size: contain;
+}
+
+.iconM{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/iconM.png);
+    background-size: contain;
+}
+.iconN{
+    /*SIZE*/
+    width: 3.5rem;
+    height: 3.5rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    right: 2rem;
+    bottom: 2rem;
+    /*IMAGE*/
+    background-image: url(icons/iconN.png);
+    background-size: contain;
+}
+
+.info{
+    /*SIZE*/
+    width: 1rem;
+    height: 1rem;
+    /*POSITION*/
+    position:relative;
+    z-index: 5;
+    left: 19.9rem;
+    bottom: 4.4rem;
+    /*IMAGE*/
+    background-image: url(icons/info.jpg);
+    background-size: contain;
+    visibility: visible;
+}
+
+.info_textbox{
+    visibility: hidden;
+    /*SIZE*/
+    height: 15.2rem;
+    width: 9.5rem;
+    /*POSITION*/
+    position: relative;
+    right: 10.1rem;
+    bottom: 12.8rem;
+    /*SCROLL*/
+    
+    overflow-y: hidden;
+
+    /*new popup stuff*/
+    background-color: #dbe0f9;
+    border-width: 0.5rem;
+    padding: 0.2rem;
+    padding-top: 0rem;
+    border-color: #8995d7;
+    border-style: solid;
+    z-index: 1;
+}
+
+.info_contents{
+    font-size: 90%;
+    font-family: Aref, serif;
+    padding: 0.5rem;
+}
+
+.info:hover{
+    background-image: url(icons/info\ 2.jpg);
+}
+
+
+.info:hover .info_textbox{
+    visibility: visible;
+}
+
+.bottom_half{
+    visibility: hidden;
+}
