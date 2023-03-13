@@ -117,6 +117,18 @@ img{
     overflow-y: auto;
 }
 
+.extra{
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 140%;
+}
+.extraTitle{
+    font-weight: bold;
+    font-size: 200%;
+}
 
 .icon1{
     /*SIZE*/
