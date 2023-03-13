@@ -120,14 +120,17 @@ img{
 .extra{
     display: block;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 15rem;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 140%;
+    color: white;
+    line-height: 140%;
 }
 .extraTitle{
     font-weight: bold;
     font-size: 200%;
+    line-height: 200%;
 }
 
 .icon1{
