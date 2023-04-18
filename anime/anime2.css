@@ -240,7 +240,7 @@ img{
     left: 19.9rem;
     bottom: 4.4rem;
     /*IMAGE*/
-    background-image: url(icons/info_W.png);
+    background-image: url(icons/infoW.png);
     background-size: contain;
     visibility: visible;
 }
@@ -276,7 +276,7 @@ img{
 }
 
 .info:hover{
-    background-image: url(icons/info\ 2_w.png);
+    background-image: url(icons/infoW2.png);
 }
 
 
