@@ -37,7 +37,7 @@ body{
 .grid {
     display: grid;
     margin: auto;
-    width: 81rem;
+    width: 80vw;
    /* gap: 1rem;*/
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -45,7 +45,6 @@ body{
 @media only screen and (max-width: 81rem){
     .grid{
         grid-template-columns: 1fr;
-        width: 30rem;
     }
 }
 
