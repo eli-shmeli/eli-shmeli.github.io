@@ -12,22 +12,7 @@
 </head>
 <body>
     
-    <button onclick="toggleStyleSheet()">Switch Stylesheet</button>
-
-  <script>
-    function toggleStyleSheet() {
-      var style1 = document.getElementById('stylesheet1');
-      var style2 = document.getElementById('stylesheet2');
-
-      if (style1.getAttribute('rel') == 'stylesheet') {
-        style1.setAttribute('rel', 'stylesheet alternate');
-        style2.setAttribute('rel', 'stylesheet');
-      } else {
-        style1.setAttribute('rel', 'stylesheet');
-        style2.setAttribute('rel', 'stylesheet alternate');
-      }
-    }
-  </script>
+    
   <div class="top">My Favorite Anime</div>
     <div class="grid">
         <div class="entry">
@@ -813,5 +798,21 @@
             </div>
         </div>
     </div>
+    <button onclick="toggleStyleSheet()">Switch Stylesheet</button>
+
+  <script>
+    function toggleStyleSheet() {
+      var style1 = document.getElementById('stylesheet1');
+      var style2 = document.getElementById('stylesheet2');
+
+      if (style1.getAttribute('rel') == 'stylesheet') {
+        style1.setAttribute('rel', 'stylesheet alternate');
+        style2.setAttribute('rel', 'stylesheet');
+      } else {
+        style1.setAttribute('rel', 'stylesheet');
+        style2.setAttribute('rel', 'stylesheet alternate');
+      }
+    }
+  </script>
 </body>
 </html>
