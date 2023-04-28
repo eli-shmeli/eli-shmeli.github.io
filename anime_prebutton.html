@@ -6,29 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eli's Anime</title>
     <link rel="icon" href="images/icon2.png">
-    <link id="stylesheet1" rel="stylesheet" type="text/css" href="anime/anime_light_purple.css">
-    <link id="stylesheet2" rel="stylesheet alternate" type="text/css" href="anime/anime_dark_red.css">
+    <link rel="stylesheet" href="anime/anime_light_purple.css">
     <link rel="stylesheet" href="fonts/ArefRuqaaInk-Bold.ttf">
 </head>
 <body>
-    
-    <button onclick="toggleStyleSheet()">Switch Stylesheet</button>
-
-  <script>
-    function toggleStyleSheet() {
-      var style1 = document.getElementById('stylesheet1');
-      var style2 = document.getElementById('stylesheet2');
-
-      if (style1.getAttribute('rel') == 'stylesheet') {
-        style1.setAttribute('rel', 'stylesheet alternate');
-        style2.setAttribute('rel', 'stylesheet');
-      } else {
-        style1.setAttribute('rel', 'stylesheet');
-        style2.setAttribute('rel', 'stylesheet alternate');
-      }
-    }
-  </script>
-  <div class="top">My Favorite Anime</div>
+    <div class="top">My Favorite Anime</div>
     <div class="grid">
         <div class="entry">
             <div class="title">Avatar: The Last Airbender</div> 

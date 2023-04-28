@@ -3,8 +3,27 @@
     src: url(../fonts/ArefRuqaaInk-Bold.ttf);
 }
 
+button {
+    background-color: #4CAF50; /* Set the background color */
+    border: none; /* Remove the border */
+    color: white; /* Set the text color */
+    padding: 15px 32px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove the underline */
+    display: block; /* Make it an inline block */
+    font-size: 16px; /* Set the font size */
+    margin: auto; /* Add some margin around the button */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    border-radius: 5px; /* Add some border radius */
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+  }
+  
+  button:hover {
+    background-color: #3e8e41; /* Darken the background color on hover */
+  }
+
 body{
-    background-color: #211a20;
+    background-color: #adb6e3;
     margin-top: 7vh;
     margin-bottom: 40vh;
 
@@ -18,15 +37,15 @@ body{
     margin-bottom: 3rem;
     font-family: Aref, serif;
     font-size: 2.5rem;
-    color: #f9eaf1;
+    color: #f6f7fb;
 }
 
 .entry {
-    background-color: #382c31;
+    background-color: #f6f7fb;
     height: 20rem;
     width: 20rem;
     border: solid;
-    border-color: #725161;
+    border-color: #dbe0f9;
     border-width: 0.5rem;
     border-radius: 3rem; 
     border-bottom-right-radius: 0rem;
@@ -54,10 +73,10 @@ body{
     height: 4.5rem;
     width: 18rem;
     float: left;
-    background-color: #382c31;
+    background-color: #f6f7fb;
     /*BORDER*/
     border: solid;
-    border-color: #725161;
+    border-color: #dbe0f9;
     border-width: 0.5rem;
     border-top-left-radius: 2.5rem;
     border-top-right-radius: 2.5rem;
@@ -75,7 +94,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #f9eaf1;
+    color: #000000;
 }
 
 img{
@@ -85,7 +104,7 @@ img{
     float: left;
     /*BORDER*/
     border: solid;
-    border-color: #725161;
+    border-color: #dbe0f9;
     border-width: 0.5rem;
     border-bottom-left-radius: 2.5rem;
     /*POSITION*/
@@ -112,7 +131,7 @@ img{
     padding-right: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.3rem;
-    color: #f9eaf1;
+    color: #000000;
 }
 
 .summary:hover{
@@ -145,7 +164,7 @@ img{
     right: 2rem;
     bottom: 2rem;
     /*IMAGE*/
-    background-image: url(icons/icon1_w.png);
+    background-image: url(icons/icon1_d.png);
     background-size: contain;
 }
 
@@ -159,7 +178,7 @@ img{
     right: 2rem;
     bottom: 2rem;
     /*IMAGE*/
-    background-image: url(icons/icon2_w.png);
+    background-image: url(icons/icon2_d.png);
     background-size: contain;
 }
 
@@ -173,7 +192,7 @@ img{
     right: 2rem;
     bottom: 2rem;
     /*IMAGE*/
-    background-image: url(icons/icon3_w.png);
+    background-image: url(icons/icon3_d.png);
     background-size: contain;
 }
 
@@ -227,7 +246,7 @@ img{
     right: 2rem;
     bottom: 2rem;
     /*IMAGE*/
-    background-image: url(icons/iconN_w.png);
+    background-image: url(icons/iconN_d.png);
     background-size: contain;
 }
 
@@ -241,7 +260,7 @@ img{
     left: 19.9rem;
     bottom: 4.4rem;
     /*IMAGE*/
-    background-image: url(icons/infoW.png);
+    background-image: url(icons/infoD.png);
     background-size: contain;
     visibility: visible;
 }
@@ -260,14 +279,14 @@ img{
     overflow-y: hidden;
 
     /*new popup stuff*/
-    background-color: #110e10;
+    background-color: #dbe0f9;
     border-width: 0.5rem;
     padding: 0.2rem;
     padding-top: 0rem;
-    border-color: #935774;
+    border-color: #8995d7;
     border-style: solid;
     z-index: 1;
-    color:#f9eaf1;
+    color:#000000;
 }
 
 .info_contents{
@@ -277,7 +296,7 @@ img{
 }
 
 .info:hover{
-    background-image: url(icons/infoW2.png);
+    background-image: url(icons/infoD2.png);
 }
 
 
