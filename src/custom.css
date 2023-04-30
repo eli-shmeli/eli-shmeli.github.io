@@ -1,0 +1,13 @@
+.bribe-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  white-space: nowrap;
+}
+
+.max-width-500-px {
+  max-width: 600px;
+}
+
+.small-text {
+  font-size: 0.8rem
+}
