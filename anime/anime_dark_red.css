@@ -4,22 +4,22 @@
 }
 
 button {
-    background-color: #4CAF50; /* Set the background color */
+    background-color: #725161; /* Set the background color */
     border: none; /* Remove the border */
     color: white; /* Set the text color */
-    padding: 15px 32px; /* Add some padding */
+    padding: 15px 15px; /* Add some padding */
     text-align: center; /* Center the text */
     text-decoration: none; /* Remove the underline */
     display: block; /* Make it an inline block */
     font-size: 16px; /* Set the font size */
     margin: auto; /* Add some margin around the button */
     cursor: pointer; /* Change the cursor to a pointer on hover */
-    border-radius: 5px; /* Add some border radius */
+    border-radius: 15px; /* Add some border radius */
     transition: background-color 0.3s ease; /* Add a smooth transition */
   }
   
   button:hover {
-    background-color: #3e8e41; /* Darken the background color on hover */
+    background-color: #876575; /* Darken the background color on hover */
   }
 
 body{
