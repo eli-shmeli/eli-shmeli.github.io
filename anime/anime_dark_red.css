@@ -11,7 +11,7 @@ button {
     text-align: center; /* Center the text */
     text-decoration: none; /* Remove the underline */
     display: block; /* Make it an inline block */
-    font-size: 16px; /* Set the font size */
+    /*font-size: 16px; /* Set the font size */
     margin: auto; /* Add some margin around the button */
     cursor: pointer; /* Change the cursor to a pointer on hover */
     border-radius: 15px; /* Add some border radius */
@@ -34,7 +34,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     font-family: Aref, serif;
     font-size: 2.5rem;
     color: #f9eaf1;
@@ -59,6 +59,14 @@ body{
     width: 81rem;
    /* gap: 1rem;*/
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttonArea {
+    display: grid;
+    margin: auto;
+    width: 8rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 81rem){

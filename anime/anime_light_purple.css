@@ -7,7 +7,7 @@ button {
     background-color: #dbe0f9; /* Set the background color */
     border: none; /* Remove the border */
     color: white; /* Set the text color */
-    padding: 15px 15px; /* Add some padding */
+    padding: 15px 30px; /* Add some padding */
     text-align: center; /* Center the text */
     text-decoration: none; /* Remove the underline */
     display: block; /* Make it an inline block */
@@ -32,11 +32,11 @@ body{
 }
 
 .top{
-    height: 10rem;
+    height: 8rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     font-family: Aref, serif;
     font-size: 2.5rem;
     color: #f6f7fb;
@@ -61,6 +61,14 @@ body{
     width: 81rem;
    /* gap: 1rem;*/
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttonArea {
+    display: grid;
+    margin: auto;
+    width: 8rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 81rem){

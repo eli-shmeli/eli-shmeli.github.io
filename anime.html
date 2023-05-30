@@ -14,6 +14,10 @@
     
     
   <div class="top">My Favorite Anime</div>
+    <div class="buttonArea">
+        <button onclick="toggleStyleSheet()"></button>
+        <button onclick="toggleFull()"></button>
+    </div>
     <div class="grid">
         <div class="entry">
             <div class="title">Avatar: The Last Airbender</div> 
@@ -815,21 +819,23 @@
             </div>
         </div>
     </div>
-    <button onclick="toggleStyleSheet()"></button>
 
-  <script>
-    function toggleStyleSheet() {
-      var style1 = document.getElementById('stylesheet1');
-      var style2 = document.getElementById('stylesheet2');
-
-      if (style1.getAttribute('rel') == 'stylesheet') {
-        style1.setAttribute('rel', 'stylesheet alternate');
-        style2.setAttribute('rel', 'stylesheet');
-      } else {
-        style1.setAttribute('rel', 'stylesheet');
-        style2.setAttribute('rel', 'stylesheet alternate');
-      }
-    }
-  </script>
+    <script>
+        function toggleStyleSheet() {
+          var style1 = document.getElementById('stylesheet1');
+          var style2 = document.getElementById('stylesheet2');
+    
+          if (style1.getAttribute('rel') == 'stylesheet') {
+            style1.setAttribute('rel', 'stylesheet alternate');
+            style2.setAttribute('rel', 'stylesheet');
+          } else {
+            style1.setAttribute('rel', 'stylesheet');
+            style2.setAttribute('rel', 'stylesheet alternate');
+          }
+        }
+        function toggleFull(){
+    
+        }
+    </script>
 </body>
 </html>
