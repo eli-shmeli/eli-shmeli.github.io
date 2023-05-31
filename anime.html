@@ -155,7 +155,7 @@
         </div>
         <div class="entry">
             <div class="title">Darling in the Franxx</div> 
-            <img src="anime/anime_images/darling in the franxx.jpg" alt="">
+            <img src="anime/anime_images/darling in the franxx 2.jpg" alt="">
             <div class="summary">In the distant future, the world has been reduced to a husk of it's former self, forcing the survivors to take refuge in massive fortress cities called Plantations. Their last line of defense are the Franxx pilots, who must protect Earth from giant beasts while struggling to understand their own mortality.</div> 
             <!-- In the distant future, humanity has been driven to near-extinction by giant beasts known as Klaxosaurs, forcing the survivors to take refuge in massive fortress cities called Plantations. Their last hope is a squadron of child Franxx pilots, who must protect Earth while struggling to understand their own teenage anxieties.-->
             <div class="iconE"></div>
@@ -262,7 +262,7 @@
         </div>
         <div class="entry">
             <div class="title">The Quintessential Quintuplets</div> 
-            <img src="anime/anime_images/quintessential quintuplets 2.jpg" alt="">
+            <img src="anime/anime_images/quintessential quintuplets 3.jpg" alt="">
             <div class="summary">Futaro Uesugi is a studyholic who's family finances are less than ideal. So when his sister lets him know of a tutoring job that pays five times the average rate, he jumps on the chance. The catch? There are five students, all sisters, and all failing.</div> 
             <div class="iconE"></div>
             <div class="info">
@@ -834,7 +834,12 @@
           }
         }
         function toggleFull(){
-    
+            var full = document.getElementById('full');
+            if(full.style.display === 'none'){
+                full.style.display = block;
+            } else {
+                full.style.display = none;
+            }
         }
     </script>
 </body>
